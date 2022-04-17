@@ -110,7 +110,9 @@ while (conexao.isconnected() == True):
         sleep(update_time)
         
     try:
-        chamada = post("https://api.thingspeak.com/update?api_key=MGB6XNU6TW0L3YJC&field1={}&field2={}".format(temp, hum))
+        # Coloque a sua API key no local apropriado
+        # Put your API key on the right place
+        chamada = post("https://api.thingspeak.com/update?api_key=PUT_YOUR_API_KEY_HERE&field1={}&field2={}".format(temp, hum))
         chamada.close()
             
         print("Dados enviados com sucesso ao servidor Thingspeak")
