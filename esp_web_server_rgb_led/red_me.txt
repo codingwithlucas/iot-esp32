@@ -1,0 +1,7 @@
+Este projeto cria um servidor utilizando a biblioteca socket no ESP32. O servidor contém uma página web com 6 botões. Três botões são responsáveis por ligar
+as cores vermelho, verde e azul do led RGB. Os outros botões desligam cada uma das cores. A página exibe o status de cada cor, isto é, se está ligada ou desligada.
+É possível ligar duas ou as três cores simultaneamente.
+
+This project implements a web server on ESP32 using the socket library. The serves has one web page with 6 buttons. Three buttons are used to turn on the colors red,
+green, and blue of the RGB led. The other buttons turn off each color. The page shows the status of the RGB led. In other words, whether the each color is on or off.
+The user can turn on two or three colors simultaneously.
