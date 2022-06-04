@@ -61,13 +61,13 @@ def web_page(temperature, humidity):
                         <h1>ESP32 DHT11 webserver</h1>
                         <p>
                             <i class="fas fa-thermometer-half" id="thermometer"></i>
-                            <span class="dht11-label">Temperatura</span>
+                            <span class="dht11-label">Temperature</span>
                             <span>"""+str(temperature)+"""</span>
                             <sup class="units">&deg;C</sup>
                         </p>
                         <p>
                             <i class="fas fa-tint" id="tint"></i>
-                            <span class="dht11-label">Umidade</span>
+                            <span class="dht11-label">Humidity</span>
                             <span>"""+str(humidity)+"""</span>
                             <sup class="units">%</sup>
                         </p>
